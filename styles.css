@@ -1,0 +1,89 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del título */
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(226, 64, 43);
+    font-style: italic;
+}
+
+/* Contenedor del label */
+.container-label {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 23px;
+}
+
+/* Contenedor del input */
+.container-input {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Estilos del input */
+input[type="text"] {
+    font-size: 18px; 
+    padding: 10px; 
+    border: 2px solid rgb(226, 64, 43);
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    outline: none; 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+}
+
+input[type="text"]:focus {
+    border-color: rgb(73, 43, 226); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); 
+}
+
+/* Contenedor del botón */
+.container-button {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilos del botón */
+.btn-calculo {
+    padding: 20px 30px;
+    background-color: rgb(226, 64, 43);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    font-size: 16px;  
+}
+
+.btn-calculo:hover {
+    background-color: rgb(172, 0, 211);
+    transform: scale(1.1);
+}
+
+/* Estilos de los resultados */
+.resultado-factorial {
+    text-align: center;
+    padding: 20px; 
+    font-size: 20px; 
+    color: #333; 
+    background-color: #ffe8e8; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 10px 0; 
+    font-style: italic; 
+    transition: transform 0.3s;
+}
+
+.resultado-factorial:hover{
+    transform: scale(1.05);
+}
